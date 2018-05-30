@@ -1,0 +1,117 @@
+body{
+background-color: #fcfcfc;;
+margin-left: 80px;
+margin-right: 80px;
+}
+
+#container {
+	    width: 93%;
+    margin: 0 auto;
+}
+.page-header {
+display: inline;
+}
+h5 {
+    text-transform: uppercase;
+    text-align: left;
+    display: inline;
+}
+header{
+	padding-left: 25px;
+    margin: 30px 0px 30px 0px;
+    text-align: left;
+}
+#search-div {
+display: inline-block;
+	margin-left: 25px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  
+}
+.profile-container {
+	border-radius: 5px;
+  	padding: 5px;
+	width: 350px;
+	height: 90px;
+	background-color: #fff;
+	border: solid;
+	border-width: thin;
+	border-color: lightgray;
+	
+}
+.profile-container:hover {
+  transform: scale(1.1);
+  vertical-align: middle;
+	border-color: darkgray;
+}
+.profile-pic-modal {
+padding-right: 8px;	
+border-radius: 50%;
+width:100px;
+	height:80px;
+
+}
+.profile-pic {
+padding-right: 8px;	
+border-radius: 50%;
+float: left;
+width:100px;
+	height:80px;
+
+}
+
+p {
+	align-content: center;
+	padding: 0;
+	margin: 5px;
+	font-size: 0.9em;
+	color: grey;
+}
+h4{
+	 display: inline-block;
+	text-transform: capitalize;
+	padding: 0;
+	margin: 0;
+	 font-family: "Montserrat", sans-serif;
+      color: #606368;
+	font-size: 0.9em;
+}
+.card-text-name{
+
+}
+h3 {
+	text-transform: capitalize;
+	font-size: 1.0em;
+	 font-family: "Montserrat", sans-serif;
+      color: #606368;
+	margin-bottom: 15px;
+}
+.text-container{
+	align-content: center;
+}
+   .modal-dialog {
+            text-align: center;
+            
+        }
+.modal-top {
+    border-bottom: 1px solid #a9a9a9;
+}
+.modal-content {
+padding: 20px;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
